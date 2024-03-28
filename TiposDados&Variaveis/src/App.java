@@ -5,6 +5,10 @@ public class App {
     // Criando o objecto de leitura (Global)
     static Scanner entrada = new Scanner(System.in);
     public static void main(String[] args) throws Exception {
+        String frase = "Curso em Video Python";
+
+        System.out.println(frase);
+        System.out.println(frase.substring(9,15));
         
 
         /* BUMBANDO COM ARRAY PURO
